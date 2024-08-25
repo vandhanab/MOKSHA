@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation-card {
+    background-image:url(https://png.pngtree.com/background/20210709/original/pngtree-business-h5-wedding-invitation-vector-background-material-picture-image_447009.jpg);
+    background-size:cover;
+    border: 2px solid rgb(245, 9, 9);
+    border-radius: 15px;
+    width: 450px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-header h4 {
+    color: #006d26;
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+    margin: 0;
+}
+.card-header h3{
+    color:rgba(197, 5, 110, 0.975);
+    font-family: 'Georgia', serif;
+    font-size: 17px;
+    margin: 0;
+}
+
+.card-body p {
+    font-size: 10p5x;
+    color: #040000;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.card-body h3{
+    font-size: 10p5x;
+    color: #d006f8;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.card-body img{
+    height: 90px;
+    width: 80px;
+    display: inline;
+    border: 2px solid rgb(94, 2, 2);
+    margin-left: 37%;
+    border-radius: 90%;
+}
+
+.card-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-footer p {
+    font-size: 16px;
+    color: #140202;
+    margin: 5px 0;
+}
+
+.card-footer strong {
+    color: #141001;
+}
